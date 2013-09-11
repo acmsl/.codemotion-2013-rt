@@ -7,5 +7,5 @@ class Post {
 
     String content
     Date created
-    Post previous
+    Post previous = null
 }
