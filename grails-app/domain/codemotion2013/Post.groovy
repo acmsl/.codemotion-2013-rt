@@ -4,7 +4,7 @@ class Post {
 
     static constraints = {
         content maxSize: 20..200
-        previous (nullable: true)
+        previous nullable: true
     }
 
     String content
