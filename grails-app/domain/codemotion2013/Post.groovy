@@ -3,7 +3,8 @@ package codemotion2013
 class Post {
 
     static constraints = {
-        previous
+        content (size: 200)
+        previous (nullable: true)
     }
 
     String content
