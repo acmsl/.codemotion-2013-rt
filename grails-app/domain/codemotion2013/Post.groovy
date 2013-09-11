@@ -2,7 +2,7 @@ package codemotion2013
 
 class Post {
 
-    static belongsTo = Post
+    static belongsTo = [ Post
     static constraints = {
         content maxSize: 200
         previous nullable: true
