@@ -3,7 +3,7 @@ package codemotion2013
 class Post {
 
     static constraints = {
-        content (size: 20..200)
+        content maxSize: 20..200
         previous (nullable: true)
     }
 
